@@ -6,12 +6,55 @@
     <title>Viaggio a Londra</title>
 </head>
 <body>
-    <header>
+    <header> <!--titolo e immagini di londra-->
         <h1>Il mio Viaggio a Londra</h1>
-        <img src="img/londra1.jpg" alt="immagine 1 londra">
-        <img src="img/londra2.jpg" alt="immagine 2 londra">
-        <img src="img/londra3.jpg" alt="immagine 3 londra">
+        <img src="img/londra1.jpg" alt="immagine 1 londra"><!--commento per togliere il gap tra le immagini
+        --><img src="img/londra2.jpg" alt="immagine 2 londra"><!--commento per togliere il gap tra le immagini
+        --><img src="img/londra3.jpg" alt="immagine 3 londra">
         <hr>
     </header>
+    <section> <!--sezione delle spese-->
+        <h2>Le mie spese</h2>
+        <style>
+            table {
+                border-collapse: separate;
+                border-spacing: 20px 0;
+            }
+        </style>
+        <table> <!--tabella delle spese-->
+            <thead>
+                <tr>
+                    <th>Numero</th>
+                    <th>Descrizione</th>
+                    <th>Costo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Biglietto Aereo</td>
+                    <td>120€</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Biglietto Aereo</td>
+                    <td>120€</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Biglietto Aereo</td>
+                    <td>120€</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Totale</td>
+                    <td></td> <!--questa riga deve rimanere vuota-->
+                    <td>360€</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+    </section>
 </body>
 </html>
